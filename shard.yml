@@ -1,0 +1,17 @@
+name: voyage_ai
+version: 0.1.0
+
+authors:
+  - Jamie Gaskins <jgaskins@hey.com>
+
+dependencies:
+  db:
+    github: crystal-lang/crystal-db
+
+development_dependencies:
+  voyage_ai:
+    path: .
+
+crystal: '>= 1.13.0'
+
+license: MIT
